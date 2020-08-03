@@ -1,4 +1,4 @@
-//ball done
+x//ball done
 //movement done
 //paddles done
 //walls/borders done
@@ -57,6 +57,49 @@ function moveAndBounceWall() {
 		colorChange();
 	}
 }
+//function mouseReleased() {
+   //var circle = createSprite(width / 2, height);
+   // circle.setCollider('circle', -2, 2, 55);
+    //circle.setSpeed(random(2, 3), random(0, 360));
+
+    //scale affects the size of the collider
+   //circle.scale = (0.5, 0.5);
+    
+    //mass determines the force exchange in case of bounce
+    //circle.mass = circle.scale;
+    //circle.restitution = 0.3;
+    //circles.add(circle);
+//}
+// circles.bounce(circles);
+
+
+  //all sprites bounce at the screen edges
+   //for(var i=0; i<allSprites.length; i++) {
+//     var s = allSprites[i];
+//     if(s.position.x<0) {
+//       s.position.x = 1;
+//       s.velocity.x = abs(s.velocity.x);
+//     }
+
+//     if(s.position.x>width) {
+//       s.position.x = width-1;
+//       s.velocity.x = -abs(s.velocity.x);
+//     }
+
+//     if(s.position.y<0) {
+//       s.position.y = 1;
+//       s.velocity.y = abs(s.velocity.y);
+//     }
+
+//     if(s.position.y>height) {
+//       s.position.y = height-1;
+//       s.velocity.y = -abs(s.velocity.y);
+//     }
+//   }
+
+//   drawSprites();
+
+// }
 
 function colorChange() {
 	r = random(255);
