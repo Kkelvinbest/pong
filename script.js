@@ -47,7 +47,7 @@ x//ball done
 //   }
 
 //   drawSprites();
-
+//l
 // }
 var canvasWidth = 500, canvasHeight = 400;
 var ballSize = 20;
